@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "kind": "3d",
+  "provider_slug": "hunyuan",
+  "index": 0,
+  "provider": "fal-ai/hunyuan3d-v3/image-to-3d",
+  "endpoint": "fal-ai/hunyuan3d-v3/image-to-3d",
+  "status": "completed",
+  "request_id": "019e3893-934e-7400-9632-8e6dd4ea4cdc",
+  "submitted_at": "2026-05-18T00:54:14.037Z",
+  "completed_at": "2026-05-18T00:56:57.672Z",
+  "input_files": [
+    "worlds\\nugen-20ft\\output\\entry-planter\\0-entry-planter.png"
+  ],
+  "output_files": [
+    "worlds\\nugen-20ft\\output\\entry-planter\\0-entry-planter.glb",
+    "worlds\\nugen-20ft\\output\\entry-planter\\0-entry-planter-thumbnail.png",
+    "worlds\\nugen-20ft\\output\\entry-planter\\0-entry-planter-obj.obj"
+  ],
+  "downloaded_files": [
+    {
+      "label": "model_glb",
+      "path": "worlds\\nugen-20ft\\output\\entry-planter\\0-entry-planter.glb",
+      "source": {
+        "url": "https://v3b.fal.media/files/b/0a9aa392/XWBxtlWoQB2w7mvKlVLvu_model.glb",
+        "content_type": "model/gltf-binary",
+        "file_name": "model.glb",
+        "file_size": 35127572
+      }
+    },
+    {
+      "label": "thumbnail",
+      "path": "worlds\\nugen-20ft\\output\\entry-planter\\0-entry-planter-thumbnail.png",
+      "source": {
+        "url": "https://v3b.fal.media/files/b/0a9aa392/84asgeqNUSSltPRnfaoqx_preview.png",
+        "content_type": "image/png",
+        "file_name": "preview.png",
+        "file_size": 158420
+      }
+    },
+    {
+      "label": "obj",
+      "path": "worlds\\nugen-20ft\\output\\entry-planter\\0-entry-planter-obj.obj",
+      "source": {
+        "url": "https://v3b.fal.media/files/b/0a9aa391/XJIuJv0W5uVv0kc2-XQ_E_model.obj",
+        "content_type": "text/plain",
+        "file_name": "model.obj",
+        "file_size": 30735381
+      }
+    }
+  ],
+  "result": {
+    "model_glb": {
+      "url": "https://v3b.fal.media/files/b/0a9aa392/XWBxtlWoQB2w7mvKlVLvu_model.glb",
+      "content_type": "model/gltf-binary",
+      "file_name": "model.glb",
+      "file_size": 35127572
+    },
+    "thumbnail": {
+      "url": "https://v3b.fal.media/files/b/0a9aa392/84asgeqNUSSltPRnfaoqx_preview.png",
+      "content_type": "image/png",
+      "file_name": "preview.png",
+      "file_size": 158420
+    },
+    "model_urls": {
+      "glb": {
+        "url": "https://v3b.fal.media/files/b/0a9aa392/XWBxtlWoQB2w7mvKlVLvu_model.glb",
+        "content_type": "model/gltf-binary",
+        "file_name": "model.glb",
+        "file_size": 35127572
+      },
+      "fbx": null,
+      "obj": {
+        "url": "https://v3b.fal.media/files/b/0a9aa391/XJIuJv0W5uVv0kc2-XQ_E_model.obj",
+        "content_type": "text/plain",
+        "file_name": "model.obj",
+        "file_size": 30735381
+      },
+      "usdz": null
+    },
+    "seed": null
+  },
+  "error": null,
+  "asset_name": "Tropical Entry Planter",
+  "input": {
+    "generate_type": "Normal",
+    "enable_pbr": true,
+    "face_count": 60000,
+    "input_image_url": "[stripped]"
+  },
+  "updated_at": "2026-05-18T00:56:57.681Z"
+}

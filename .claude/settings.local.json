@@ -1,0 +1,39 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run *)",
+      "mcp__Claude_in_Chrome__tabs_context_mcp",
+      "WebSearch",
+      "Bash(npx tsc *)",
+      "Bash(powershell -Command \"Test-NetConnection -ComputerName localhost -Port 3000 -InformationLevel Quiet 2>&1\")",
+      "WebFetch(domain:konfigear.com)",
+      "WebFetch(domain:www.youtube.com)",
+      "Bash(git remote *)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(curl -s https://raw.githubusercontent.com/neilsonnn/image-blaster/main/CLAUDE.md)",
+      "Bash(curl -s https://api.github.com/repos/neilsonnn/image-blaster/contents/)",
+      "Bash(curl -s https://api.github.com/repos/neilsonnn/image-blaster/git/trees/main?recursive=1)",
+      "Bash(curl -s https://raw.githubusercontent.com/neilsonnn/image-blaster/main/.claude/scripts/fal/run-fal.mjs)",
+      "Bash(curl -s \"https://api.github.com/repos/neilsonnn/image-blaster/git/trees/main?recursive=1\")",
+      "Bash(curl -s \"https://api.github.com/repos/neilsonnn/image-blaster/contents/.claude\" -H \"Accept: application/vnd.github.v3+json\")",
+      "Bash(curl -s \"https://raw.githubusercontent.com/neilsonnn/image-blaster/main/.claude/.settings.json\")",
+      "Bash(curl -s \"https://raw.githubusercontent.com/neilsonnn/image-blaster/main/.claude/settings.json\")",
+      "Bash(curl -s \"https://raw.githubusercontent.com/neilsonnn/image-blaster/main/.claude/scripts/asset-pipeline/hunyuan-3d.mjs\")",
+      "Bash(curl -s \"https://raw.githubusercontent.com/neilsonnn/image-blaster/main/.claude/scripts/asset-pipeline/meshy-3d.mjs\")",
+      "Bash(curl -s \"https://raw.githubusercontent.com/neilsonnn/image-blaster/main/.claude/scripts/asset-pipeline/image-edit.mjs\")",
+      "Bash(curl -s \"https://raw.githubusercontent.com/neilsonnn/image-blaster/main/.claude/scripts/asset-pipeline/nano-banana-edit.mjs\")",
+      "Bash(curl -s \"https://raw.githubusercontent.com/neilsonnn/image-blaster/main/.claude/scripts/project/delete.mjs\")",
+      "Bash(curl -s \"https://raw.githubusercontent.com/neilsonnn/image-blaster/main/.claude/scripts/asset-pipeline/fal-3d-provider.mjs\")",
+      "Bash(curl -s \"https://raw.githubusercontent.com/neilsonnn/image-blaster/main/.claude/scripts/asset-pipeline/gpt-image-2-edit.mjs\")",
+      "Bash(curl -s \"https://raw.githubusercontent.com/neilsonnn/image-blaster/main/.claude/scripts/project/show-url.mjs\")",
+      "Bash(curl -s \"https://raw.githubusercontent.com/neilsonnn/image-blaster/main/.claude/hooks/setup-check.sh\")",
+      "Bash(curl -s \"https://raw.githubusercontent.com/neilsonnn/image-blaster/main/.env.example\")",
+      "Bash(netstat -ano)",
+      "Bash(findstr :5173)",
+      "Bash(findstr LISTENING)",
+      "Bash(xargs ls -lh)",
+      "Bash(awk '{print $5, $9}')",
+      "Bash(git add *)"
+    ]
+  }
+}

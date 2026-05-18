@@ -1,0 +1,111 @@
+{
+  "schema_version": 1,
+  "kind": "world",
+  "provider": "world-labs",
+  "endpoint": "https://api.worldlabs.ai/marble/v1",
+  "model": "marble-1.1",
+  "index": 0,
+  "status": "completed",
+  "request_id": "a97b730a-022d-4d83-a71e-7e131cf00ec5",
+  "submitted_at": "2026-05-18T00:23:16.209Z",
+  "prompt": "NuGen 20ft Tropical Suburban\nSingle-module 20ft NuGen Casita prefab home. Black powder-coated steel I-beam frame at corners and roof edge. Mixed cladding: warm cedar-tone vertical wood panels in center section flanking large glass French doors, white flat panels on both end modules. Matte black flat roof. Two aluminum-framed windows on the end panels. Small timber entry deck with three steps leading to glass double doors. Concrete stepping stone path leads from foreground to the deck. Lush tropical setting: two large mature palm trees (one each side), dense ornamental shrubs at the base of the structure. Bright blue sky, midday tropical sun.\nTropical suburban — Florida/California aesthetic. Lush green lawn, mature palms, clean concrete path, residential neighborhood feel.\nModern industrial prefab. Black steel frame contrasts warm cedar cladding and crisp white panels. Glass-forward center facade. Clean lines, minimal ornamentation.\nMidday sun, slightly overhead and from right. Bright, high contrast. Deep shadows under roof overhang and entry deck. Sky is clear blue.\nTurnkey tropical retreat. Compact, self-contained, move-in ready. The kind of unit you put on a corner lot or backyard ADU and immediately have a lifestyle upgrade.",
+  "input_files": [
+    "worlds/nugen-20ft/source/0-nugen-20ft.png"
+  ],
+  "output_files": [
+    "worlds\\nugen-20ft\\output\\world\\0-world.json"
+  ],
+  "downloaded_files": [
+    "worlds\\nugen-20ft\\output\\world\\0-world-plate.png",
+    "worlds\\nugen-20ft\\output\\world\\0-world.glb",
+    "worlds\\nugen-20ft\\output\\world\\0-world-pano.png",
+    "worlds\\nugen-20ft\\output\\world\\0-world-thumbnail.webp",
+    "worlds\\nugen-20ft\\output\\world\\0-world-500k.spz",
+    "worlds\\nugen-20ft\\output\\world\\0-world-100k.spz",
+    "worlds\\nugen-20ft\\output\\world\\0-world-150k.spz",
+    "worlds\\nugen-20ft\\output\\world\\0-world-full_res.spz"
+  ],
+  "request": {
+    "display_name": "nugen-20ft",
+    "model": "marble-1.1",
+    "world_prompt": {
+      "type": "image",
+      "image_prompt": {
+        "source": "data_base64",
+        "data_base64": "[stripped]",
+        "extension": "png",
+        "mime_type": "image/png"
+      },
+      "text_prompt": "NuGen 20ft Tropical Suburban\nSingle-module 20ft NuGen Casita prefab home. Black powder-coated steel I-beam frame at corners and roof edge. Mixed cladding: warm cedar-tone vertical wood panels in center section flanking large glass French doors, white flat panels on both end modules. Matte black flat roof. Two aluminum-framed windows on the end panels. Small timber entry deck with three steps leading to glass double doors. Concrete stepping stone path leads from foreground to the deck. Lush tropical setting: two large mature palm trees (one each side), dense ornamental shrubs at the base of the structure. Bright blue sky, midday tropical sun.\nTropical suburban — Florida/California aesthetic. Lush green lawn, mature palms, clean concrete path, residential neighborhood feel.\nModern industrial prefab. Black steel frame contrasts warm cedar cladding and crisp white panels. Glass-forward center facade. Clean lines, minimal ornamentation.\nMidday sun, slightly overhead and from right. Bright, high contrast. Deep shadows under roof overhang and entry deck. Sky is clear blue.\nTurnkey tropical retreat. Compact, self-contained, move-in ready. The kind of unit you put on a corner lot or backyard ADU and immediately have a lifestyle upgrade."
+    }
+  },
+  "completed_at": "2026-05-18T00:29:42.816Z",
+  "result": {
+    "operation_id": "a97b730a-022d-4d83-a71e-7e131cf00ec5",
+    "created_at": "2026-05-18T00:23:24Z",
+    "updated_at": "2026-05-18T00:29:19Z",
+    "expires_at": "2026-05-18T03:23:24Z",
+    "done": true,
+    "error": null,
+    "metadata": {
+      "progress": {
+        "status": "SUCCEEDED",
+        "description": "World generation completed successfully"
+      },
+      "world_id": "063e9d3b-3706-4216-af3b-08cffc7e4d1c",
+      "operation_type": "world_generation",
+      "public_model_name": "marble-1.1"
+    },
+    "response": {
+      "world_id": "063e9d3b-3706-4216-af3b-08cffc7e4d1c",
+      "display_name": "",
+      "tags": null,
+      "assets": {
+        "mesh": {
+          "collider_mesh_url": "https://cdn.marble.worldlabs.ai/063e9d3b-3706-4216-af3b-08cffc7e4d1c/9588c1aa.glb"
+        },
+        "imagery": {
+          "pano_url": "https://cdn.marble.worldlabs.ai/063e9d3b-3706-4216-af3b-08cffc7e4d1c/a379a954-5b72-4dd0-80d6-e63821c18775_panos/rgb_0.png"
+        },
+        "splats": {
+          "spz_urls": {
+            "500k": "https://cdn.marble.worldlabs.ai/063e9d3b-3706-4216-af3b-08cffc7e4d1c/39e0524e-4bcb-4b63-9df1-bc5ac3d20684_ceramic_500k.spz",
+            "100k": "https://cdn.marble.worldlabs.ai/063e9d3b-3706-4216-af3b-08cffc7e4d1c/94d04383-7a77-41f1-9910-d8f33763c12e_dust_100k.spz",
+            "150k": "https://cdn.marble.worldlabs.ai/063e9d3b-3706-4216-af3b-08cffc7e4d1c/1606a8b4-f550-4523-a20d-b1684ddf680c_ceramic_150k.spz",
+            "full_res": "https://cdn.marble.worldlabs.ai/063e9d3b-3706-4216-af3b-08cffc7e4d1c/a8510418-8c6e-4df7-8f22-7a051e8cb4db_ceramic.spz"
+          },
+          "semantics_metadata": {
+            "metric_scale_factor": 3.4654741,
+            "ground_plane_offset": 1.9798276
+          }
+        },
+        "thumbnail_url": "https://cdn.marble.worldlabs.ai/063e9d3b-3706-4216-af3b-08cffc7e4d1c/c3430922-e70f-4187-9f7f-8e84d1778993_sand_mpi/thumbnail.webp",
+        "caption": "The scene is a tropical suburban retreat featuring a single-module 20ft NuGen Casita prefab home, presented in a realistic style with a bright, inviting tone. The home is characterized by a black powder-coated steel I-beam frame at its corners and roof edge, creating a modern industrial aesthetic. The cladding mixes warm cedar-tone vertical wood panels in the central section, flanking large glass French doors, with crisp white flat panels on both end modules. A matte black flat roof covers the structure, which is set upon a small timber entry deck with three steps leading up to the glass double doors. Two aluminum-framed windows are situated on the end panels of the home. A concrete stepping stone path leads from the foreground directly to the entry deck, embedded within a lush green lawn. The surrounding environment is distinctly tropical, with two large, mature palm trees, one positioned on each side of the residence, and dense ornamental shrubs planted at the base of the structure. The sky above is a bright, clear blue, indicative of a midday tropical sun, casting deep shadows under the roof overhang and the entry deck. The structure is part of a residential neighborhood, exuding a clean, turnkey tropical retreat ambiance. The home's design incorporates clean lines and minimal ornamentation, allowing the glass-forward central facade to stand out. The other angles of the scene would reveal further expansive lush green lawn extending around the property, possibly revealing neighboring residential homes consistent with the suburban Florida/California aesthetic. The 360 scene is faultless."
+      },
+      "created_at": null,
+      "updated_at": null,
+      "permission": {
+        "public": false,
+        "allowed_readers": [],
+        "allowed_writers": [],
+        "allow_id_access": false
+      },
+      "world_prompt": null,
+      "world_marble_url": "https://marble.worldlabs.ai/world/063e9d3b-3706-4216-af3b-08cffc7e4d1c",
+      "model": null
+    },
+    "cost": {
+      "total_credits": 1580,
+      "line_items": [
+        {
+          "name": "Pano generation (image, non-pano)",
+          "credits": 80
+        },
+        {
+          "name": "World generation",
+          "credits": 1500
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "kind": "sfx",
+  "sfx_kind": "sfx",
+  "provider": "fal-ai/elevenlabs/sound-effects/v2",
+  "index": 0,
+  "endpoint": "fal-ai/elevenlabs/sound-effects/v2",
+  "request_id": "019e3893-3e13-7a02-a592-98952e3d08c3",
+  "status": "completed",
+  "submitted_at": "2026-05-18T00:53:52.596Z",
+  "status_url": "https://queue.fal.run/fal-ai/elevenlabs/requests/019e3893-3e13-7a02-a592-98952e3d08c3/status",
+  "response_url": "https://queue.fal.run/fal-ai/elevenlabs/requests/019e3893-3e13-7a02-a592-98952e3d08c3",
+  "updated_at": "2026-05-18T00:53:59.382Z",
+  "checked_at": "2026-05-18T00:53:59.274Z",
+  "queue_status": {
+    "status": "COMPLETED",
+    "request_id": "019e3893-3e13-7a02-a592-98952e3d08c3",
+    "response_url": "https://queue.fal.run/fal-ai/elevenlabs/requests/019e3893-3e13-7a02-a592-98952e3d08c3",
+    "status_url": "https://queue.fal.run/fal-ai/elevenlabs/requests/019e3893-3e13-7a02-a592-98952e3d08c3/status",
+    "cancel_url": "https://queue.fal.run/fal-ai/elevenlabs/requests/019e3893-3e13-7a02-a592-98952e3d08c3/cancel",
+    "logs": [],
+    "metrics": {
+      "inference_time": 4.633352041244507
+    }
+  },
+  "completed_at": "2026-05-18T00:54:03.122Z",
+  "result": {
+    "audio": {
+      "url": "https://v3b.fal.media/files/b/0a9aa383/EZjX0HK5Eg1uUxk1tedD6_sound_effect.mp3",
+      "content_type": "audio/mpeg",
+      "file_name": "sound_effect.mp3",
+      "file_size": 112893
+    }
+  },
+  "prompt": "Warm tropical breeze rustling through tall palm fronds, distant subtropical birdsong, light residential neighborhood ambience, soft sunlit afternoon, peaceful and inviting",
+  "input_files": [],
+  "output_files": [
+    "worlds\\nugen-20ft\\output\\sfx\\0-ambience.mp3"
+  ],
+  "downloaded_files": [
+    {
+      "label": "audio",
+      "path": "worlds\\nugen-20ft\\output\\sfx\\0-ambience.mp3",
+      "source": {
+        "url": "https://v3b.fal.media/files/b/0a9aa383/EZjX0HK5Eg1uUxk1tedD6_sound_effect.mp3",
+        "content_type": "audio/mpeg",
+        "file_name": "sound_effect.mp3",
+        "file_size": 112893
+      }
+    }
+  ],
+  "error": null,
+  "audio_analysis": {
+    "postprocessed": false,
+    "skipped_reason": "Post-processing disabled",
+    "before": {
+      "duration_seconds": 7,
+      "bytes": 112893,
+      "volume": {
+        "mean_db": -50.1,
+        "max_db": -32.3
+      },
+      "silence": {
+        "threshold_db": "-45dB",
+        "leading_seconds": 0,
+        "trailing_seconds": 0,
+        "regions": []
+      }
+    },
+    "after": {
+      "duration_seconds": 7,
+      "bytes": 112893,
+      "volume": {
+        "mean_db": -50.1,
+        "max_db": -32.3
+      },
+      "silence": {
+        "threshold_db": "-45dB",
+        "leading_seconds": 0,
+        "trailing_seconds": 0,
+        "regions": []
+      }
+    },
+    "quality_score": 60
+  }
+}

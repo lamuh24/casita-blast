@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "kind": "2d",
+  "index": 0,
+  "provider": "fal-ai/nano-banana-2/edit",
+  "endpoint": "fal-ai/nano-banana-2/edit",
+  "status": "completed",
+  "request_id": "019e3893-3dfc-7793-b4f8-afcd3084786e",
+  "submitted_at": "2026-05-18T00:53:50.409Z",
+  "completed_at": "2026-05-18T00:54:10.616Z",
+  "prompt": "A single large tropical palm tree, isolated on pure white background, full tree visible from base to crown tip, photorealistic, PBR ready, no shadows, centered composition",
+  "input_files": [
+    "worlds/nugen-20ft/source/0-nugen-20ft.png"
+  ],
+  "output_files": [
+    "worlds\\nugen-20ft\\output\\palm-tree\\0-palm-tree.png"
+  ],
+  "downloaded_files": [
+    {
+      "label": "images-1",
+      "path": "worlds\\nugen-20ft\\output\\palm-tree\\0-palm-tree.png",
+      "source": {
+        "url": "https://v3b.fal.media/files/b/0a9aa383/-7qPwhhesLg2ROv0_o4jF_KRT6c8yV.png",
+        "content_type": "image/png",
+        "file_name": "-7qPwhhesLg2ROv0_o4jF_KRT6c8yV.png",
+        "file_size": null,
+        "width": null,
+        "height": null
+      }
+    }
+  ],
+  "result": {
+    "images": [
+      {
+        "url": "https://v3b.fal.media/files/b/0a9aa383/-7qPwhhesLg2ROv0_o4jF_KRT6c8yV.png",
+        "content_type": "image/png",
+        "file_name": "-7qPwhhesLg2ROv0_o4jF_KRT6c8yV.png",
+        "file_size": null,
+        "width": null,
+        "height": null
+      }
+    ],
+    "description": ""
+  },
+  "error": null,
+  "updated_at": "2026-05-18T00:54:10.623Z"
+}

@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "world": "nugen-20ft",
+  "object": {
+    "id": "palm-tree",
+    "name": "Tropical Palm Tree",
+    "description": "Large mature tropical palm tree, single straight trunk approximately 6-8 meters tall, full crown of long arching fronds. Florida/California species. PBR textured bark and fronds.",
+    "source_images": [
+      "worlds/nugen-20ft/source/0-nugen-20ft.png"
+    ],
+    "evidence": [
+      {
+        "image": "worlds/nugen-20ft/source/0-nugen-20ft.png",
+        "notes": "Two large mature palms visible on left and right sides of the casita. Dominant landscape feature."
+      }
+    ],
+    "generate_as_3d_object": true,
+    "model_provider": "hunyuan",
+    "working_dir": "worlds/nugen-20ft/output/palm-tree",
+    "image_edit_prompt": "A single large tropical palm tree, isolated on pure white background, full tree visible from base to crown tip, photorealistic, PBR ready, no shadows, centered composition, 4K detail"
+  },
+  "updated_at": "2026-05-18T00:53:50.393Z"
+}

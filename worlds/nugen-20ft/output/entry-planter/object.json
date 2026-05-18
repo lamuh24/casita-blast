@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "world": "nugen-20ft",
+  "object": {
+    "id": "entry-planter",
+    "name": "Tropical Entry Planter",
+    "description": "Dark ceramic or concrete planter pot, medium size, containing lush tropical ornamental plant. Modern style to match the casita aesthetic. Placed flanking entry steps.",
+    "source_images": [
+      "worlds/nugen-20ft/source/0-nugen-20ft.png"
+    ],
+    "evidence": [
+      {
+        "image": "worlds/nugen-20ft/source/0-nugen-20ft.png",
+        "notes": "Planter pots visible at the base of the entry deck steps on both sides."
+      }
+    ],
+    "generate_as_3d_object": true,
+    "model_provider": "hunyuan",
+    "working_dir": "worlds/nugen-20ft/output/entry-planter",
+    "image_edit_prompt": "A single modern dark concrete planter pot with a lush tropical ornamental plant, isolated on pure white background, photorealistic, PBR ready, no shadows, centered composition, full object visible"
+  },
+  "updated_at": "2026-05-18T00:53:52.116Z"
+}

@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "kind": "3d",
+  "provider_slug": "hunyuan",
+  "index": 0,
+  "provider": "fal-ai/hunyuan3d-v3/image-to-3d",
+  "endpoint": "fal-ai/hunyuan3d-v3/image-to-3d",
+  "status": "completed",
+  "request_id": "019e3893-85fe-78a2-9930-85e9dc34a71d",
+  "submitted_at": "2026-05-18T00:54:10.633Z",
+  "completed_at": "2026-05-18T00:55:52.266Z",
+  "input_files": [
+    "worlds\\nugen-20ft\\output\\palm-tree\\0-palm-tree.png"
+  ],
+  "output_files": [
+    "worlds\\nugen-20ft\\output\\palm-tree\\0-palm-tree.glb",
+    "worlds\\nugen-20ft\\output\\palm-tree\\0-palm-tree-thumbnail.png",
+    "worlds\\nugen-20ft\\output\\palm-tree\\0-palm-tree-obj.obj"
+  ],
+  "downloaded_files": [
+    {
+      "label": "model_glb",
+      "path": "worlds\\nugen-20ft\\output\\palm-tree\\0-palm-tree.glb",
+      "source": {
+        "url": "https://v3b.fal.media/files/b/0a9aa38d/FPRhcWotIoodM4-QqGIcE_model.glb",
+        "content_type": "model/gltf-binary",
+        "file_name": "model.glb",
+        "file_size": 29308420
+      }
+    },
+    {
+      "label": "thumbnail",
+      "path": "worlds\\nugen-20ft\\output\\palm-tree\\0-palm-tree-thumbnail.png",
+      "source": {
+        "url": "https://v3b.fal.media/files/b/0a9aa38d/eeGlEU1LnZbGkD8tbAWxU_preview.png",
+        "content_type": "image/png",
+        "file_name": "preview.png",
+        "file_size": 40268
+      }
+    },
+    {
+      "label": "obj",
+      "path": "worlds\\nugen-20ft\\output\\palm-tree\\0-palm-tree-obj.obj",
+      "source": {
+        "url": "https://v3b.fal.media/files/b/0a9aa38d/Va5ixlX0vGl3UXJ4lemRv_model.obj",
+        "content_type": "text/plain",
+        "file_name": "model.obj",
+        "file_size": 27103704
+      }
+    }
+  ],
+  "result": {
+    "model_glb": {
+      "url": "https://v3b.fal.media/files/b/0a9aa38d/FPRhcWotIoodM4-QqGIcE_model.glb",
+      "content_type": "model/gltf-binary",
+      "file_name": "model.glb",
+      "file_size": 29308420
+    },
+    "thumbnail": {
+      "url": "https://v3b.fal.media/files/b/0a9aa38d/eeGlEU1LnZbGkD8tbAWxU_preview.png",
+      "content_type": "image/png",
+      "file_name": "preview.png",
+      "file_size": 40268
+    },
+    "model_urls": {
+      "glb": {
+        "url": "https://v3b.fal.media/files/b/0a9aa38d/FPRhcWotIoodM4-QqGIcE_model.glb",
+        "content_type": "model/gltf-binary",
+        "file_name": "model.glb",
+        "file_size": 29308420
+      },
+      "fbx": null,
+      "obj": {
+        "url": "https://v3b.fal.media/files/b/0a9aa38d/Va5ixlX0vGl3UXJ4lemRv_model.obj",
+        "content_type": "text/plain",
+        "file_name": "model.obj",
+        "file_size": 27103704
+      },
+      "usdz": null
+    },
+    "seed": null
+  },
+  "error": null,
+  "asset_name": "Tropical Palm Tree",
+  "input": {
+    "generate_type": "Normal",
+    "enable_pbr": true,
+    "face_count": 80000,
+    "input_image_url": "[stripped]"
+  },
+  "updated_at": "2026-05-18T00:55:52.276Z"
+}

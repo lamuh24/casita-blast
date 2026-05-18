@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "kind": "2d",
+  "index": 0,
+  "provider": "fal-ai/nano-banana-2/edit",
+  "endpoint": "fal-ai/nano-banana-2/edit",
+  "status": "completed",
+  "request_id": "019e3893-4dbf-7783-86f1-dbd9285d5702",
+  "submitted_at": "2026-05-18T00:53:52.129Z",
+  "completed_at": "2026-05-18T00:54:14.022Z",
+  "prompt": "A single modern dark concrete planter pot with a lush tropical ornamental plant, isolated on pure white background, photorealistic, PBR ready, no shadows, centered composition, full object visible",
+  "input_files": [
+    "worlds/nugen-20ft/source/0-nugen-20ft.png"
+  ],
+  "output_files": [
+    "worlds\\nugen-20ft\\output\\entry-planter\\0-entry-planter.png"
+  ],
+  "downloaded_files": [
+    {
+      "label": "images-1",
+      "path": "worlds\\nugen-20ft\\output\\entry-planter\\0-entry-planter.png",
+      "source": {
+        "url": "https://v3b.fal.media/files/b/0a9aa383/bMA8bFhR6ooFewR3E4IZr_1rIW4SYl.png",
+        "content_type": "image/png",
+        "file_name": "bMA8bFhR6ooFewR3E4IZr_1rIW4SYl.png",
+        "file_size": null,
+        "width": null,
+        "height": null
+      }
+    }
+  ],
+  "result": {
+    "images": [
+      {
+        "url": "https://v3b.fal.media/files/b/0a9aa383/bMA8bFhR6ooFewR3E4IZr_1rIW4SYl.png",
+        "content_type": "image/png",
+        "file_name": "bMA8bFhR6ooFewR3E4IZr_1rIW4SYl.png",
+        "file_size": null,
+        "width": null,
+        "height": null
+      }
+    ],
+    "description": ""
+  },
+  "error": null,
+  "updated_at": "2026-05-18T00:54:14.029Z"
+}
